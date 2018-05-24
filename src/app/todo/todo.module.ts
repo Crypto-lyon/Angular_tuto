@@ -8,7 +8,9 @@ import { TodoViewComponent } from './todo-view/todo-view.component';
   imports: [
     CommonModule
   ],
+  // On declare les components.
   declarations: [TodoListComponent, TodoViewComponent],
+  // On rend ces components disponibles aux autres modules (ici on le rend dispo pour appModule.
   exports: [TodoListComponent]
 })
 export class TodoModule { }

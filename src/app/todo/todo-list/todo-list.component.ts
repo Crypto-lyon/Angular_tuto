@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Todo} from "../todo";
 
 @Component({
@@ -16,7 +16,8 @@ export class TodoListComponent implements OnInit {
 
   public todos: Todo[];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
     /* Ici on fait l'instanciation des variables.*/
@@ -24,6 +25,6 @@ export class TodoListComponent implements OnInit {
       new Todo('Fabriquer une clé'),
       new Todo('Vider le lac')
     ];
-      }
+  }
 
 }
