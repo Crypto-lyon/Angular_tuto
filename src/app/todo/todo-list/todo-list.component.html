@@ -1,6 +1,7 @@
 <ul>
   <!--On fait une boucle for-->
   <li *ngFor="let todo of todos;">
+    <!--On boucle, on se sert de l'input créé dans todo-view.component-->
     <app-todo-view [item]="todo"></app-todo-view>
   </li>
 </ul>
